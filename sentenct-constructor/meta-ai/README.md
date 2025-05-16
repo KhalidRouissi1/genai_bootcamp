@@ -1,4 +1,9 @@
-## Prompting guide
+## Meta AI Powered Assistant guide
+
+### Wich model
+Meta.ai using Llama4 70B parameters
+
+### Prompting guide
 
 
 https://www.llama.com/docs/how-to-guides/prompting/
