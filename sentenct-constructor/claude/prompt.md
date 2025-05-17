@@ -81,6 +81,7 @@ When the input is english text then it possbile the student is setting up the tr
 - try and provide a non-nested bulleted list
 - talk about the vocabulary but try to leave out the japanese words because the student can refer to vocabulary table.
 
+- refernece the <file>considerations.examples.xml</file> for good considrations examples. 
 
 ## Student Input
 Did you see the raven this morning? They were looking at our garden.
