@@ -35,6 +35,22 @@ The formatted output will genrally contain three parts:
 
 ### Sentenct Structure
 - Do not provide particles in the sentence
+- Do not provide tences in instruction
+- rembember to consider beginner level sentence structure
+Here is an example of simple sentecne structure
+- The bird is black. — [Subject] [Adjective-desu].
+
+- The raven is in the garden. — [Location] [Subject] [Verb].
+- Put the garbage in the garden. — [Location] [Object] [Verb].
+- Did you see the raven? — [Subject] [Object] [Verb]?
+- This morning, I saw the raven. — [Time] [Subject] [Object] [Verb].
+- Are you going? — [Subject] [Verb-masu ka]?
+- Did you eat the food? — [Object] [Verb-past ka]?
+- The raven is looking at the garden. — [Subject] [Verb] [Location].
+- The raven is in the garden, and it is looking at the flowers. — [Location] [Subject] [Verb].
+    [Object] [Verb].
+- I saw the raven because it was loud. — [Time] [Subject] [Object] [Verb] [Reason] [Subject] [Verb].
+
 ### Clues and Considerations
 - try and provide a non-nested bulleted list
 - talk about the vocabulary but try to leave out the japanese words because the student can refer to vocabulary table.
