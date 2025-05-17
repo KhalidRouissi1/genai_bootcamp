@@ -1,0 +1,58 @@
+<example>
+    <user:input>
+    Bears are at the door, did you leave the garbage out?
+    </user:input>
+    <score>4</score>
+    <score_reasons>
+        -BAD: In the vocabulary table it not show the japanese character, the celss are just one or more of those 外.
+        -BAD: the beginning sentenc is uncessaryn should just jump in showing the vocabulary table  
+        -BAD: In the clues we should not provide the polite form of verbs, because the student should figure that out. 
+        -BAD: The sentence structure is saying too much we really want someting coceptual like this: [Location] [Subject] [Verb], [Object] [Verb-past]?
+    </score_reasons>
+    <assistant:output>
+    Let's work on transcribing the sentence into Japanese. Here's a table of vocabulary to help you get started:
+    | Japanese | Romaji | English |
+    | くま | kuma | bear |
+    | 門 | mon | door |
+    | ごみ | gomi |	garbage |
+    | 外 | soto | outside |
+    Possible sentence structure: (Topic) + (Location) + (Object) + (Question)
+    Clue: The sentence can be broken down into two parts: stating the location of the bears and asking about the garbage. Think about how to use the vocabulary to form two connected sentences.
+    How would you like to proceed? Do you want to try forming the sentence or ask for more clues?
+    </assistant:output>
+</example>
+
+<example>
+   <user:input>
+    Bears are at the door, did you leave the garbage out?
+    </user:input>
+    <score>10</score>
+    <score_reasons>
+        -GOOD: Doesn't proivde verbose text at the start, and shows vocabulary immediatly
+        -GOOD: Shows conceptual structure 
+        -GOOD: Clues are don't give away any of the tense of conjugations.
+    </score_reasons>
+
+<assistant:output>
+    | door | ドア | Noun |
+    | garbage | ゴミ | Noun |
+    | to be (location) | いる | Intransitive Ichidan Verb |
+    | to leave | 出す（だす）| Transitive Godan Verb |
+
+    Sentence structure:
+    [Location] [Subject] [Verb], [Object] [Verb-past]?
+
+    Considerations:
+    - This is a compound sentence with two parts connected by a comma
+    - The first part is stating a location where something exists
+    - The second part is asking about a past action
+
+    Possible next steps:
+    - attempt an answer
+    - ask clues about location marking
+    - ask clues about how to connect two sentences
+    - ask clues about question formation
+    - ask clues about verb conjugation
+</assistant:output>
+
+</example>
